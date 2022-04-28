@@ -1,0 +1,31 @@
+{
+    "require": {
+        "nesbot/carbon": "^2.0",
+        "rakit/validation": "^1.1",
+        "php-ai/php-ml": "^0.7.0",
+        "cboden/ratchet": "^0.4.1",
+        "tecnickcom/tcpdf": "^6.2",
+        "fieg/bayes": "^1.0",
+        "ps/image-optimizer": "^1.2",
+        "fightbulc/moment": "^1.28",
+        "azuyalabs/yasumi": "^1.8",
+        "jolicode/jolinotif": "^2.0",
+        "endroid/qr-code": "^3.5",
+        "rah/danpu": "^2.7",
+        "stillat/numeral.php": "^2.0"
+    },
+    "autoload": {
+         "classmap": [
+            "models/ssc",
+            "models/plant_and_facilities/",
+            "models/bldg_coordinator/",
+            "models/student_affairs/",
+            "models/adviser/",
+            "models/student/",
+            "models/layouts/",
+            "models/audit/",
+            "models/mis/",
+            "lib/"
+        ]
+    }
+}
